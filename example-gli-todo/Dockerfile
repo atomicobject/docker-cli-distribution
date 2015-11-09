@@ -1,4 +1,4 @@
-FROM ruby:2.1
+FROM ruby:2.2
 
 COPY ./ruby-cli-app /app
 RUN cd /app \
