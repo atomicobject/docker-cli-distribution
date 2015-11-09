@@ -1,0 +1,4 @@
+#!/bin/bash
+# gnu-date - a wrapper script for invoking `date(1)` from within a Docker image
+docker run --rm -ti ubuntu:12.04 date "$@"
+
