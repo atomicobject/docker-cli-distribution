@@ -1,0 +1,5 @@
+= ruby-cli-app
+
+Generate this with
+    ruby-cli-app rdoc
+After you have described your command line interface
