@@ -8,8 +8,24 @@ spec = Gem::Specification.new do |s|
   s.homepage = 'http://your.website.com'
   s.platform = Gem::Platform::RUBY
   s.summary = 'A description of your project'
-  s.files = `git ls-files`.split("
-")
+  s.files = %[
+.gitignore
+.ruby-version
+Gemfile
+Gemfile.lock
+README.rdoc
+Rakefile
+bin/ruby-cli-app
+features/ruby-cli-app.feature
+features/step_definitions/ruby-cli-app_steps.rb
+features/support/env.rb
+lib/ruby-cli-app.rb
+lib/ruby-cli-app/version.rb
+ruby-cli-app.gemspec
+ruby-cli-app.rdoc
+test/default_test.rb
+test/test_helper.rb
+  ]
   s.require_paths << 'lib'
   s.has_rdoc = true
   s.extra_rdoc_files = ['README.rdoc','ruby-cli-app.rdoc']
