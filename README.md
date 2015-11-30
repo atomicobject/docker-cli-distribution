@@ -2,5 +2,5 @@
 
 Example code to accompany the [blog post][] by Mike English ([@englishm][]).
 
-[blog post]: TODO: insert url for published post
+[blog post]: https://spin.atomicobject.com/2015/11/30/command-line-tools-docker/
 [@englishm]: https://github.com/englishm
